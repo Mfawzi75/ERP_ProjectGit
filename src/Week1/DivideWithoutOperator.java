@@ -1,31 +1,42 @@
 package Week1;
 
-import java.util.Scanner;
-
 public class DivideWithoutOperator {
 
-            public static void main(String args[]){
+    public static String divideWithoutOperator(int dividend, int divisor) {
+        // Convert the numbers to positive to simplify the calculation
+        int absDivisor = Math.abs(divisor);
+        int absDividend = Math.abs(dividend);
 
-                int num1,num2,div,result = 0;
+        int temp = absDivisor;
+        int result = 0;
 
-                Scanner scan=new Scanner(System.in);
-
-                System.out.print("Enter the value to num1: ");
-                num1=scan.nextInt();
-
-                System.out.print("Enter the value to num2: ");
-                num2=scan.nextInt();
-                div=num1+num2;
-                while(div>num2){
-                    div=div-num2;
-                    result++;
-
-                }
-                System.out.println("Division of "+num1+" and "+num2+":"+result);
-            }
+        // Check for division by zero
+        if (divisor == 0) {
+            throw new ArithmeticException("divisor cannot be Zero");
+        } else if (dividend == 0 ){
+            return "0";
         }
 
+        // Perform the division
+        while (absDividend >= temp) {
 
+            temp += absDivisor;
+            result++;
 
+        }
 
+        // Apply the sign to the result
+        if (dividend < 0)
+            result *= -1;
+        if (divisor < 0)
+            result *= -1;
 
+        return dividend + " divided by " + divisor + " is: " + result + " and remainder is " + (dividend - (result * divisor));
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(divideWithoutOperator(12, 3));
+    }
+
+}

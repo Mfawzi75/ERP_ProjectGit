@@ -2,7 +2,7 @@ package src.ruslan;
 
 import java.util.Scanner;
 
-public class consecutiveNumbers {
+public class ConsecutiveNumbers {
 
     public static void main(String[] args) {
 

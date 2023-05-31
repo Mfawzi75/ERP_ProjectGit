@@ -1,6 +1,6 @@
 package Shahnoza;
 
-public class task1 {
+public class Task1_SwapTwoNumbers {
     public static void main(String[] args) {
 
         int a = 10;

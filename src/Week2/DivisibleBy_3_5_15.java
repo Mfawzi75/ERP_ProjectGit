@@ -1,6 +1,6 @@
-package Diloro;
+package Week2;
 
-public class Q2 {
+public class DivisibleBy_3_5_15 {
     public static void main(String[] args) {
         StringBuilder d3_5_15 = new StringBuilder();
         StringBuilder d5 = new StringBuilder();

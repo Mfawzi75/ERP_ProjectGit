@@ -1,8 +1,8 @@
-package Diloro;
+package Week2;
 
 import java.util.Scanner;
 
-public class Q3 {
+public class CodilityTestCoders {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

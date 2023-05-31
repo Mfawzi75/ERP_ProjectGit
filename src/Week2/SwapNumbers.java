@@ -1,6 +1,6 @@
-package Diloro;
+package Week2;
 
-public class Q1 {
+public class SwapNumbers {
     public static void main(String[] args) {
         int first = 3,
                 second = 1;

@@ -4,14 +4,14 @@ public class SwapNumbers {
 
     public static void main(String[] args) {
 
-        int num1 = 25;
-        int num2 = 35;
-        System.out.println("Before swapping:" + "\nnum1 = " + num1 + "\nnum2 = " + num2);
+        int a = 25;
+        int b = 35;
+        System.out.println("Before swapping:" + "\na = " + a + "\nb = " + b);
 
-        num1 = num1 + num2;// 25 + 35 = 60
-        num2 = num1 - num2;// 60 - 35 = 25
-        num1 = num1 - num2;// 60 - 25 = 35
+        a = a + b;// 25 + 35 = 60
+        b = a - b;// 60 - 35 = 25
+        a = a - b;// 60 - 25 = 35
 
-        System.out.println("After swapping:" + "\nnum1 = " + num1 + "\nnum2 = " + num2);
+        System.out.println("After swapping:" + "\na = " + a + "\nb = " + b);
     }
 }

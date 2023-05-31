@@ -1,4 +1,4 @@
-package src.ruslan;
+package src.Week2;
 
 import java.util.Scanner;
 

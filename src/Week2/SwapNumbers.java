@@ -2,8 +2,8 @@ package Week2;
 
 public class SwapNumbers {
     public static void main(String[] args) {
-        int first = 3,
-                second = 1;
+        int first = 3;
+        int second = 1;
 
         first = second + first;
         second = first - second;

@@ -17,5 +17,7 @@ public class DivisibleBy_3_5_15 {
         System.out.println("Number divisible by 3:" + d3);
         System.out.println("Number divisible by 5:" + d5);
         System.out.println("Numbers divisible by 3 & 5 & 15:" + d3_5_15);
+
+
     }
 }

@@ -1,4 +1,4 @@
-package Week2Max;
+package Max.Week2;
 
 import java.util.Scanner;
 

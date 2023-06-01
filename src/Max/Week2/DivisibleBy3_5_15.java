@@ -1,4 +1,4 @@
-package Week2Max;
+package Max.Week2;
 
 public class DivisibleBy3_5_15 {
     public static void main(String[] args) {

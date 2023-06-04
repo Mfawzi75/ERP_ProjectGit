@@ -1,4 +1,4 @@
-package src.Week2;
+package src.ruslan.Week2;
 
 public class SwapNumbers {
 

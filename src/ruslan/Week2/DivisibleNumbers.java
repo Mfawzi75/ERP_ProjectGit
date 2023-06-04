@@ -1,4 +1,4 @@
-package src.Week2;
+package src.ruslan.Week2;
 
 public class DivisibleNumbers {
 
@@ -12,10 +12,10 @@ public class DivisibleNumbers {
             if (i % 15 == 0) {
                 divisibleBy15 += i + " ";
             }
-            if (i % 5 == 0) {
+            else if (i % 5 == 0) {
                 divisibleBy5 += i + " ";
             }
-            if (i % 3 == 0) {
+            else if (i % 3 == 0) {
                 divisibleBy3 += i + " ";
             }
         }

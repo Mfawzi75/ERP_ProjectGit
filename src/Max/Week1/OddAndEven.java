@@ -1,4 +1,4 @@
-package Week1;
+package Max.Week1;
 
 public class OddAndEven {
     public static String oddOrEven(int num) {

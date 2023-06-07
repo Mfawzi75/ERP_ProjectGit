@@ -13,12 +13,12 @@ public class PrimeNumber {
         if (num == 1) {
             return "1 - is not a Prime Number";
         }
-        for (int i = 2; i <= num / 2; i++) {
+        for (int i = 2; i <= num / 2; i++) {//if num is divisible in the given range --> set true, so the num is not a Prime
             if (num % i == 0) {
                 return num + " --> is not a Prime Number";
             }
         }
-        return num + " --> is a Prime Number";
+        return num + " --> is a Prime Number";//if num isn't divisible --> set false and num is a Prime
     }
 }
 /*

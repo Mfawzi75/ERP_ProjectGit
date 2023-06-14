@@ -1,4 +1,4 @@
-package Diloro.Week3;
+package src.Diloro.Week3;
 
 import java.util.Scanner;
 

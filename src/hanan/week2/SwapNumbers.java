@@ -1,4 +1,4 @@
-package hanan.week2;
+package src.hanan.week2;
 
 public class SwapNumbers {
     public static void main(String[] args) {

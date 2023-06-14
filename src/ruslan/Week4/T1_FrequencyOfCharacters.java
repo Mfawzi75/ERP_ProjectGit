@@ -5,7 +5,7 @@ package src.ruslan.Week4;
         public static void main(String[] args) {
 
             System.out.println(FrequencyOfChars("AAABBCDD"));
-
+// Test example
         }
 
         public static String FrequencyOfChars(String str) {

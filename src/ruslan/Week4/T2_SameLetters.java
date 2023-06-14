@@ -25,6 +25,7 @@ public class T2_SameLetters {
         return Arrays.equals(a1, a2);
     }
 
+// option2
 /*
         for (int i = 0; i < str1.length(); i++) {
             if (str1.charAt(i) == str2.charAt(i)) {
@@ -34,7 +35,7 @@ public class T2_SameLetters {
         return true;
     }
 
- */// option2
+ */
 
 }
  /*

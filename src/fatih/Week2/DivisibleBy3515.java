@@ -1,4 +1,4 @@
-package fatih.Week2;
+package src.fatih.Week2;
 
 import java.util.ArrayList;
 import java.util.List;

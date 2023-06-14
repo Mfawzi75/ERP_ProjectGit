@@ -1,4 +1,4 @@
-package fatih.Week2;
+package src.fatih.Week2;
 
 public class PrintConsecutiveNumbers {
 

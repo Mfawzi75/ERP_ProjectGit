@@ -1,4 +1,4 @@
-package hanan.week1;
+package src.hanan.week1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package hanan.week3;
+package src.hanan.week3;
 
 public class PrimeNumber {
 

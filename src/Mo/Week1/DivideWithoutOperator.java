@@ -1,7 +1,6 @@
-package Max.Week1;
+package Mo.Week1;
 
 public class DivideWithoutOperator {
-
     public static String divideWithoutOperator(int dividend, int divisor) {
         // Convert the numbers to positive to simplify the calculation
         int absDivisor = Math.abs(divisor);

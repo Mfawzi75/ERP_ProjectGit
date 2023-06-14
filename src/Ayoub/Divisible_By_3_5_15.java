@@ -1,4 +1,4 @@
-package Ayoub;
+package src.Ayoub;
 
 public class Divisible_By_3_5_15 {
 

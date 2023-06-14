@@ -1,4 +1,4 @@
-package Ayoub.Week3;
+package src.Ayoub.Week3;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Ayoub.Week3;
+package src.Ayoub.Week3;
 
 public class Reverse_Negative_Number {
     public static void main (String[] args) {

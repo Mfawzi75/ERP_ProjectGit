@@ -16,7 +16,7 @@ public class SameLaters {
 
     public static boolean method(String word1, String word2){
         boolean result=true;
-        for (int i = 0; i < word1.length()-1; i++) {
+        for (int i = 0; i < word1.length(); i++) {
             if(!word2.contains(""+word1.charAt(i))){
                  result=false;
         break;}}

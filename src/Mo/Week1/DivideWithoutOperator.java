@@ -1,4 +1,4 @@
-package Mo.Week1;
+package src.Mo.Week1;
 
 public class DivideWithoutOperator {
     public static String divideWithoutOperator(int dividend, int divisor) {

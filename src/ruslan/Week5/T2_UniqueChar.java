@@ -1,23 +1,31 @@
 package src.ruslan.Week5;
 
+import java.util.Scanner;
+
 public class T2_UniqueChar {
     public static void main(String[] args) {
 
-        System.out.println(uniqueChar("AAABBBCCCDEF"));
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter sequence of characters:");
+        String sequenceOfChar = input.nextLine();
+        input.close();
+
+        System.out.println(uniqueChar(sequenceOfChar));
     }
 
     public static String uniqueChar(String str) {
 
-        String unique = "DEF";
-        String result = "";
+        String unique = "";
 
         for (int i = 0; i < str.length(); i++) {
 
-            if (str.contains(unique)) {
-                result = unique;
+            char each = str.charAt(i);
+
+            if (str.indexOf(each) == str.lastIndexOf(each)) {
+                unique += each;
             }
         }
-        return result;
+        return unique;
     }
 }
 /*

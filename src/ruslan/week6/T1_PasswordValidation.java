@@ -25,6 +25,7 @@ public class T1_PasswordValidation {
 
         String password = input.nextLine();
         System.out.println(isValid(password));
+        input.close();
     }
 
     public static boolean isValid(String password) {

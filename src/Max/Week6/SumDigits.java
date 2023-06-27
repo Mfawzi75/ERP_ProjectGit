@@ -22,3 +22,4 @@ public class SumDigits {
         return resolt;
     }
 }
+// new

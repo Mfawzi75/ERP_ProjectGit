@@ -1,4 +1,4 @@
-package Max.Week1;
+package Week1;
 
 public class DivideWithoutOperator {
 
